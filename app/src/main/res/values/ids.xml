@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_login" type="id">btn_Login</item>
+    <item name="edit_name" type="id">edit_name</item>
+    <item name="edit_email" type="id">edit_email</item>
+    <item name="btn_change_password" type="id">btn_change_password</item>
+    <item name="btn_sign_out" type="id">btn_sign_out</item>
+    <item name="btn_sign_in" type="id">btn_sign_in</item>
+</resources>

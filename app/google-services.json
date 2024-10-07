@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "700445988533",
+    "project_id": "car-proximity-app-android",
+    "storage_bucket": "car-proximity-app-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700445988533:android:438bbe0c52fa884d0650fc",
+        "android_client_info": {
+          "package_name": "com.example.car_proximity_app_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPAJVScA_HyauV-Pp-zkLBk5wluDo-J3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

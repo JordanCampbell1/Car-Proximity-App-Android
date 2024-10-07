@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:angle = "100"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/login_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/account_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="355dp"
+        android:layout_height="69dp"
+        android:hint='Password'
+        android:inputType="textPassword"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:padding="18dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="306dp"
+        android:layout_height="64dp"
+        android:hint='Username'
+        android:inputType="text"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="70dp"
+        android:src="@drawable/google"
+        android:id="@+id/google_btn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:src="@drawable/facebook"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="601dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:src="@drawable/in"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="596dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
