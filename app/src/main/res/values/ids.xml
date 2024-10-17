@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_profile" type="id">nav_profile</item>
+    <item name="nav_setting" type="id">nav_setting</item>
+    <item name="nav_triggers" type="id">nav_triggers</item>
+    <item name="nav_login" type="id">nav_login</item>
+    <item name="nav_page" type="id">nav_page</item>
+    <item name="nav_landing_page" type="id">nav_landing_page</item>
+</resources>
